@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SVG House and Garden</title>
+</head>
+<body>
+  <h2>SVG House and Garden</h2>
+
+  <svg width="600" height="400" style="border: 1px solid black;">
+
+    <!-- Sky -->
+    <rect x="0" y="0" width="600" height="400" fill="skyblue" />
+
+    <!-- Grass -->
+    <rect x="0" y="300" width="600" height="100" fill="limegreen" />
+
+    <!-- House -->
+    <rect x="200" y="180" width="200" height="120" fill="#e6b07c" stroke="black" stroke-width="2"/>
+
+    <!-- Roof -->
+    <polygon points="200,180 300,100 400,180" fill="brown" stroke="black" stroke-width="2"/>
+
+    <!-- Chimney -->
+    <rect x="240" y="120" width="20" height="40" fill="firebrick" />
+
+    <!-- Door -->
+    <rect x="285" y="240" width="30" height="60" fill="saddlebrown" stroke="black" />
+
+    <!-- Windows (will group later) -->
+    <rect x="220" y="200" width="30" height="30" fill="lightblue" stroke="black"/>
+    <rect x="350" y="200" width="30" height="30" fill="lightblue" stroke="black"/>
+
+    <!-- Sun -->
+    <circle cx="500" cy="80" r="40" fill="yellow" />
+
+    <!-- Bushes -->
+    <circle cx="100" cy="320" r="20" fill="darkgreen" />
+    <circle cx="130" cy="320" r="20" fill="darkgreen" />
+
+    <!-- Cloud -->
+    <ellipse cx="150" cy="80" rx="30" ry="15" fill="white" />
+    <ellipse cx="170" cy="80" rx="30" ry="15" fill="white" />
+
+    <!-- Path -->
+    <line x1="300" y1="300" x2="300" y2="400" stroke="gray" stroke-width="5" />
+
+    <!-- Label -->
+    <text x="220" y="170" font-family="Arial" font-size="16" fill="black">My Little SVG Home</text>
+
+  </svg>
+
+</body>
+</html>
